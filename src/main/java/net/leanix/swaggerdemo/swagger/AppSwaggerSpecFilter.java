@@ -39,6 +39,7 @@ public class AppSwaggerSpecFilter implements SwaggerSpecFilter
     @Override
     public boolean isPropertyAllowed(Model model, Property prprt, String string, Map<String, List<String>> map, Map<String, String> map1, Map<String, List<String>> map2)
     {
+        System.out.println("");
         return true;
     }
 
